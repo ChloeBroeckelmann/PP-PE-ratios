@@ -9,11 +9,13 @@ Python data analysis app for PP:PE ratios, likely FTIR/microplastics analysis.
 - GitHub repo: https://github.com/ChloeBroeckelmann/PP-PE-ratios
 
 ## Git sync setup
-The repo is cloned on both computers and synced via GitHub.
-- Windows: C:\Users\ChloeBroeckelmann\Desktop\PP-PE-ratios
-- Mac: wherever it was cloned on the Mac
+The repo is on GitHub and synced between two computers.
+- Mac (primary): `/Users/chloebroeckelmann/Desktop/Claude`
+- Laptop: clone with `git clone https://github.com/ChloeBroeckelmann/PP-PE-ratios.git`
+
+GitHub remote was connected and first push completed on 2026-05-19. The push required a larger HTTP buffer due to the 73MB FTIR CSV folder — this was fixed with `git config http.postBuffer 524288000` and should not need to be repeated.
 
 A cheat sheet for Git commands is in GIT-CHEATSHEET.md in this folder.
 
 ## Reminder
-Always help Chloe push changes to GitHub after editing, and pull before starting work on a new computer.
+Always help Chloe push changes to GitHub after editing, and pull before starting work on a new computer. Chloe is not highly technical — give step-by-step guidance and explain what commands do.
