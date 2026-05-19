@@ -1,0 +1,15 @@
+# Generated plots — recreated by running the scripts
+*.png
+
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS junk
+.DS_Store
+
+# Old method output files (superseded by fingerprint_ratios*)
+ch2_ch3_ratios.csv
+ch2_ch3_ratios_dish_summary.csv
+ch2_ch3_ratios_plot.png
+ch2_ch3_ratios_with_PE_estimate.csv
